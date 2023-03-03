@@ -1,0 +1,35 @@
+{
+  "build": {
+    "core": "samd",
+    "cpu": "cortex-m0plus",
+    "mcu": "samd21e15l",
+    "f_cpu": "48000000L",
+    "extra_flags": [
+      "-D__SAMD21E15L__",
+      "-DARM_MATH_CM0PLUS"
+    ]
+  },
+  "debug": {
+    "jlink_device": "ATSAMD21E15",
+    "openocd_chipname": "at91samd21e15",
+    "openocd_target": "at91samdXX",
+    "svd_path": "ATSAMD21E15L.svd"
+  },
+  "frameworks": [
+    "cmsis"
+  ],
+  "name": "Playground",
+  "upload": {
+    "maximum_ram_size": 4096,
+    "maximum_size": 32768,
+    "protocol": "atmel-ice",
+    "protocols": [
+      "cmsis-dap",
+      "blackmagic",
+      "jlink",
+      "atmel-ice"
+    ]
+  },
+  "url": "http://example.com",
+  "vendor": "Gregory Ling"
+}

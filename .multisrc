@@ -1,0 +1,8 @@
+{
+  "sourcesFolder": "sources",
+  "sourceLink": ".src",
+  "projectFileRegex": "(main\\.c|.*\\.ini)",
+  "projectChangeCommand": "platformio-ide.rebuildProjectIndex",
+  "configFilePath": "multisrc.ini",
+  "configFileTemplate": "[platformio]\nsrc_dir = {project}\nextra_configs = ${platformio.src_dir}/custom.ini"
+}

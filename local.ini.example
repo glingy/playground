@@ -1,0 +1,29 @@
+# Copy this file to `local.ini` after the repository is cloned so you can modify
+# the serial ports without having your changes committed.
+
+[env:playground]
+debug_tool = blackmagic
+upload_protocol = blackmagic
+
+# PlatformIO attempts to auto-detect the debugger, but does not always find
+# the right one.
+
+# If it picks the wrong one, these must be set to the serial port to which 
+# the debugger is connected. Uncomment the appropriate lines and modify 
+# as needed. The serial port might change between uses. 
+
+# There are two serial ports, one is UART data and one is the debugger. If
+# PlatformIO hangs while attempting to program the board, the wrong port was
+# selected and you'll need to manually select the other one here:
+
+# macOS:
+# debug_port = /dev/cu.usbmodemPLAYGRND1
+# upload_port = /dev/cu.usbmodemPLAYGRND1
+
+# Linux
+#debug_port = /dev/ttyACM0
+#upload_port = /dev/ttyACM0
+
+# Windows (Use Device Manager to find the port)
+#debug_port = COM3
+#upload_port = COM3

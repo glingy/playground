@@ -1,0 +1,39 @@
+{
+  "build": {
+    "core": "samd",
+    "cpu": "cortex-m4",
+    "mcu": "same51j20a",
+    "extra_flags": [
+      "-mfloat-abi=hard",
+      "-mfpu=fpv4-sp-d16",
+      "-D__SAME51J18A__",
+      "-D__FPU_PRESENT",
+      "-DARM_MATH_CM4",
+      "-DENABLE_CACHE",
+      "-D__COMPUTE_TESTER__"
+    ]
+  },
+  "debug": {
+    "jlink_device": "ATSAME51J20",
+    "openocd_chipname": "at91same51j20",
+    "openocd_target": "atsame5x",
+    "svd_path": "ATSAME51J20A.svd"
+  },
+  "frameworks": [
+    "cmsis"
+  ],
+  "name": "PrISUm Compute Tester",
+  "upload": {
+    "maximum_ram_size": 262144,
+    "maximum_size": 1048576,
+    "protocol": "atmel-ice",
+    "protocols": [
+      "cmsis-dap",
+      "blackmagic",
+      "jlink",
+      "atmel-ice"
+    ]
+  },
+  "url": "http://example.com",
+  "vendor": "PrISUm"
+}

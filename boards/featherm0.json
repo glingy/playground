@@ -1,0 +1,36 @@
+{
+  "build": {
+    "core": "samd",
+    "cpu": "cortex-m0plus",
+    "mcu": "samd21g18a",
+    "f_cpu": "48000000L",
+    "extra_flags": [
+      "-D__SAMD21G18A__",
+      "-DARM_MATH_CM0PLUS",
+      "-D__COMPUTE_TESTER__"
+    ]
+  },
+  "debug": {
+    "jlink_device": "ATSAMD21G18",
+    "openocd_chipname": "at91samd21g18",
+    "openocd_target": "at91samdXX",
+    "svd_path": "ATSAMD21G18A.svd"
+  },
+  "frameworks": [
+    "cmsis"
+  ],
+  "name": "Adafruit Feather M0",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "protocol": "atmel-ice",
+    "protocols": [
+      "cmsis-dap",
+      "blackmagic",
+      "jlink",
+      "atmel-ice"
+    ]
+  },
+  "url": "http://example.com",
+  "vendor": "PrISUm"
+}
