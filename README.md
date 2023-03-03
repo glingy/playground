@@ -1,10 +1,10 @@
 # Atmel SAM D21 Playground!
 
 ## Important Links
-Documentation: https://playground.ctrtl.com
-BOM: https://playground.ctrtl.com/bom
-Schematic: https://playground.ctrtl.com/schematic.pdf
-ATSAMD21E15L Datasheet: https://playground.ctrtl.com/SAMD21.pdf
+ * Documentation: https://playground.ctrtl.com
+ * BOM: https://playground.ctrtl.com/bom
+ * Schematic: https://playground.ctrtl.com/schematic.pdf
+ * ATSAMD21E15L Datasheet: https://playground.ctrtl.com/SAMD21.pdf
 
 This repository contains the development kit for building code for the Atmel SAM D21 playground board. This board was developed to help members of the Solar Car Club (Prisum) at Iowa State University to learn how to program very low level embedded code. This repository is a reduced version of the development environment used by the team.
 
