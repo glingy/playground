@@ -1,7 +1,7 @@
 # Atmel SAM D21 Playground!
 
 ## Important Links
- * Documentation: https://playground.ctrtl.com
+ * Documentation: WIP
  * BOM: https://playground.ctrtl.com/bom
  * Schematic: https://playground.ctrtl.com/schematic.pdf
  * ATSAMD21E15L Datasheet: https://playground.ctrtl.com/SAMD21.pdf
