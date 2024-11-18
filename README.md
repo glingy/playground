@@ -2,6 +2,7 @@
 
 ## Important Links
  * Documentation: WIP
+ * How to make your own Playground: [making_a_playground.md](./docs/making_a_playground.md)
  * BOM: https://playground.ctrtl.com/bom
  * Schematic: https://playground.ctrtl.com/schematic.pdf
  * ATSAMD21E15L Datasheet: https://playground.ctrtl.com/SAMD21.pdf
@@ -15,8 +16,8 @@ This repository contains the development kit for building code for the Atmel SAM
  - Clone this repository to your computer
  - Open the folder with VS Code (Either drag the folder onto the VS Code application or open VS Code and select `Open Folder...`)
  - VS Code will prompt you to install some recommended extensions. Do so, it should install PlatformIO, C/C++ tools, multisrc, and Explorer Exclude.
-   - This environment is based on PlatformIO (https://platformio.org) with several modifications to make it easier to use. 
- 
+   - This environment is based on PlatformIO (https://platformio.org) with several modifications to make it easier to use.
+
 ### What is all this stuff?
  - Several of these are hidden by default, look in the `Hidden Items` tab in the explorer sidebar to see them. If it's hidden, you can ignore it for the most part.
  - `.vscode` - VSCode configuration. Suggested extensions, file type associations, configuration of what's hidden, etc.
@@ -39,7 +40,7 @@ PlatformIO adds a lot of buttons to the bottom status bar in VSCode. From left t
  - The third is the trash can, that will delete everything from the build folder. If there's a strange linker error for some reason, you can try cleaning, but I've found that it's usually your fault and not because the build folder is dirty.
  - The serial monitor (plug) is not used yet.
  - The terminal will open a local terminal window with the `pio` command set up for debugging the development environment.
- - The next is the selected debugger. By default, it will assume the playground's internal debugger, but you can select another in `local.ini`. See `platform.ini` for example debugger definitions. 
+ - The next is the selected debugger. By default, it will assume the playground's internal debugger, but you can select another in `local.ini`. See `platform.ini` for example debugger definitions.
  - When editing, you may see a database icon and/or a fire symbol to the left of the line and column numbers. That indicates that intellisense is parsing the file, so if syntax highlighting or linting looks broken, wait for those to disappear, and if it's not fixed by the time they disappear, close and reopen the file.
  - In the bottom right corner of VSCode, `< something >` indicates the source folder currently selected for running / debugging. It will be red if you're looking at a file not in the current project so you don't compile the wrong project on accident. Click that to select a different project
 
@@ -75,5 +76,3 @@ PlatformIO adds a lot of buttons to the bottom status bar in VSCode. From left t
 
 **Help!** It's just not working!
  - Yup. Welcome to software. Take a break and come back later. The answer's probably staring you in the face.
-
-
