@@ -2,7 +2,7 @@
 
 ## Important Links
  * Documentation: WIP
- * How to make your own Playground: [making_a_playground.md](./docs/making_a_playground.md)
+ * How to make your own Playground: [docs/making_a_playground.md](./docs/making_a_playground.md)
  * BOM: https://playground.ctrtl.com/bom
  * Schematic: https://playground.ctrtl.com/schematic.pdf
  * ATSAMD21E15L Datasheet: https://playground.ctrtl.com/SAMD21.pdf
